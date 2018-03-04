@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  UIView+UIView_Extended.m
 //  MOTU
 //
 //  Created by Abhisek on 04/03/18.
 //  Copyright © 2018 Abhisek. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "UIView+UIView_Extended.h"
 
-@interface ViewController : UIViewController
-
+@implementation UIView (UIView_Extended)
 
 @end
-
