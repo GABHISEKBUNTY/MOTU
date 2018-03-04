@@ -10,4 +10,28 @@
 
 @implementation UIView (UIView_Extended)
 
+-(CGFloat)frameX {
+    return self.frame.origin.x;
+}
+
+-(CGFloat)frameY {
+    return self.frame.origin.y;
+}
+
+-(CGFloat)boundedHeight {
+    return self.bounds.size.height;
+}
+
+-(CGFloat)boundedWidth {
+    return self.bounds.size.height;
+}
+
+-(CGFloat)frameHeight {
+    return self.frame.size.height;
+}
+
+-(CGFloat)frameWidth {
+    return self.frame.size.width;
+}
+
 @end

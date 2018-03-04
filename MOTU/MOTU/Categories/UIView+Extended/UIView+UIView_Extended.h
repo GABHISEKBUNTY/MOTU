@@ -10,4 +10,11 @@
 
 @interface UIView (UIView_Extended)
 
+-(CGFloat)frameX;
+-(CGFloat)frameY;
+-(CGFloat)boundedHeight;
+-(CGFloat)boundedWidth;
+-(CGFloat)frameHeight;
+-(CGFloat)frameWidth;
+
 @end

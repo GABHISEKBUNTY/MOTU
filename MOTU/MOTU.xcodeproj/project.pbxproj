@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		93CA6C28204B2EA800D9618A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C27204B2EA800D9618A /* AppDelegate.m */; };
-		93CA6C2B204B2EA800D9618A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C2A204B2EA800D9618A /* ViewController.m */; };
 		93CA6C2E204B2EA800D9618A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C2C204B2EA800D9618A /* Main.storyboard */; };
 		93CA6C31204B2EA800D9618A /* MOTU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C2F204B2EA800D9618A /* MOTU.xcdatamodeld */; };
 		93CA6C33204B2EA800D9618A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C32204B2EA800D9618A /* Assets.xcassets */; };
@@ -16,6 +15,25 @@
 		93CA6C39204B2EA800D9618A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C38204B2EA800D9618A /* main.m */; };
 		93CA6C43204B2EA800D9618A /* MOTUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C42204B2EA800D9618A /* MOTUTests.m */; };
 		93CA6C4E204B2EA800D9618A /* MOTUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C4D204B2EA800D9618A /* MOTUUITests.m */; };
+		93CA6C66204B814A00D9618A /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C65204B814A00D9618A /* LogInViewController.m */; };
+		93CA6C6B204B861A00D9618A /* UIView+UIView_Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6C6A204B861A00D9618A /* UIView+UIView_Extended.m */; };
+		93CA6C7F204B893700D9618A /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C6E204B893600D9618A /* Gotham-Medium.otf */; };
+		93CA6C80204B893700D9618A /* Baskerville.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C6F204B893600D9618A /* Baskerville.ttc */; };
+		93CA6C81204B893700D9618A /* Gotham-LightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C70204B893600D9618A /* Gotham-LightIta.otf */; };
+		93CA6C82204B893700D9618A /* Gotham-BookIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C71204B893600D9618A /* Gotham-BookIta.otf */; };
+		93CA6C83204B893700D9618A /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C72204B893600D9618A /* Gotham-XLight.otf */; };
+		93CA6C84204B893700D9618A /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C73204B893600D9618A /* Gotham-Book.otf */; };
+		93CA6C85204B893700D9618A /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C74204B893600D9618A /* Gotham-Thin.otf */; };
+		93CA6C86204B893700D9618A /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C75204B893600D9618A /* Gotham-Bold.otf */; };
+		93CA6C87204B893700D9618A /* Gotham-ThinIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C76204B893600D9618A /* Gotham-ThinIta.otf */; };
+		93CA6C88204B893700D9618A /* Gotham-BlackIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C77204B893600D9618A /* Gotham-BlackIta.otf */; };
+		93CA6C89204B893700D9618A /* Gotham-MediumIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C78204B893600D9618A /* Gotham-MediumIta.otf */; };
+		93CA6C8A204B893700D9618A /* Gotham-UltraIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C79204B893600D9618A /* Gotham-UltraIta.otf */; };
+		93CA6C8B204B893700D9618A /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C7A204B893600D9618A /* Gotham-Light.otf */; };
+		93CA6C8C204B893700D9618A /* Gotham-XLightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C7B204B893600D9618A /* Gotham-XLightIta.otf */; };
+		93CA6C8D204B893700D9618A /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C7C204B893600D9618A /* Gotham-Black.otf */; };
+		93CA6C8E204B893700D9618A /* Gotham-BoldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C7D204B893700D9618A /* Gotham-BoldIta.otf */; };
+		93CA6C8F204B893700D9618A /* Gotham-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6C7E204B893700D9618A /* Gotham-Ultra.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +57,6 @@
 		93CA6C23204B2EA800D9618A /* MOTU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOTU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CA6C26204B2EA800D9618A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93CA6C27204B2EA800D9618A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		93CA6C29204B2EA800D9618A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		93CA6C2A204B2EA800D9618A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93CA6C2D204B2EA800D9618A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93CA6C30204B2EA800D9618A /* MOTU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MOTU.xcdatamodel; sourceTree = "<group>"; };
 		93CA6C32204B2EA800D9618A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +69,27 @@
 		93CA6C49204B2EA800D9618A /* MOTUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOTUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CA6C4D204B2EA800D9618A /* MOTUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOTUUITests.m; sourceTree = "<group>"; };
 		93CA6C4F204B2EA800D9618A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CA6C64204B814A00D9618A /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		93CA6C65204B814A00D9618A /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		93CA6C69204B861A00D9618A /* UIView+UIView_Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView_Extended.h"; sourceTree = "<group>"; };
+		93CA6C6A204B861A00D9618A /* UIView+UIView_Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView_Extended.m"; sourceTree = "<group>"; };
+		93CA6C6E204B893600D9618A /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		93CA6C6F204B893600D9618A /* Baskerville.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Baskerville.ttc; sourceTree = "<group>"; };
+		93CA6C70204B893600D9618A /* Gotham-LightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-LightIta.otf"; sourceTree = "<group>"; };
+		93CA6C71204B893600D9618A /* Gotham-BookIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookIta.otf"; sourceTree = "<group>"; };
+		93CA6C72204B893600D9618A /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		93CA6C73204B893600D9618A /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		93CA6C74204B893600D9618A /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		93CA6C75204B893600D9618A /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		93CA6C76204B893600D9618A /* Gotham-ThinIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinIta.otf"; sourceTree = "<group>"; };
+		93CA6C77204B893600D9618A /* Gotham-BlackIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BlackIta.otf"; sourceTree = "<group>"; };
+		93CA6C78204B893600D9618A /* Gotham-MediumIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-MediumIta.otf"; sourceTree = "<group>"; };
+		93CA6C79204B893600D9618A /* Gotham-UltraIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraIta.otf"; sourceTree = "<group>"; };
+		93CA6C7A204B893600D9618A /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		93CA6C7B204B893600D9618A /* Gotham-XLightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightIta.otf"; sourceTree = "<group>"; };
+		93CA6C7C204B893600D9618A /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		93CA6C7D204B893700D9618A /* Gotham-BoldIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BoldIta.otf"; sourceTree = "<group>"; };
+		93CA6C7E204B893700D9618A /* Gotham-Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Ultra.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +142,8 @@
 			children = (
 				93CA6C5B204B2EBC00D9618A /* Application */,
 				93CA6C5C204B2EC900D9618A /* Controllers */,
+				93CA6C67204B85CB00D9618A /* Categories */,
+				93CA6C90204B89E000D9618A /* Utilities */,
 				93CA6C5D204B2EE000D9618A /* Storyboards */,
 				93CA6C5E204B2EEE00D9618A /* Database */,
 				93CA6C61204B2F1800D9618A /* Resources */,
@@ -144,8 +183,7 @@
 		93CA6C5C204B2EC900D9618A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				93CA6C29204B2EA800D9618A /* ViewController.h */,
-				93CA6C2A204B2EA800D9618A /* ViewController.m */,
+				93CA6C63204B811900D9618A /* LogIn */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,6 +224,7 @@
 		93CA6C61204B2F1800D9618A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				93CA6C6D204B891600D9618A /* Fonts */,
 				93CA6C62204B2F2000D9618A /* Assets */,
 			);
 			path = Resources;
@@ -197,6 +236,71 @@
 				93CA6C32204B2EA800D9618A /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		93CA6C63204B811900D9618A /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				93CA6C64204B814A00D9618A /* LogInViewController.h */,
+				93CA6C65204B814A00D9618A /* LogInViewController.m */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		93CA6C67204B85CB00D9618A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				93CA6C6C204B886400D9618A /* UILabel+Extended */,
+				93CA6C68204B85DC00D9618A /* UIView+Extended */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		93CA6C68204B85DC00D9618A /* UIView+Extended */ = {
+			isa = PBXGroup;
+			children = (
+				93CA6C69204B861A00D9618A /* UIView+UIView_Extended.h */,
+				93CA6C6A204B861A00D9618A /* UIView+UIView_Extended.m */,
+			);
+			path = "UIView+Extended";
+			sourceTree = "<group>";
+		};
+		93CA6C6C204B886400D9618A /* UILabel+Extended */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UILabel+Extended";
+			sourceTree = "<group>";
+		};
+		93CA6C6D204B891600D9618A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93CA6C6F204B893600D9618A /* Baskerville.ttc */,
+				93CA6C7C204B893600D9618A /* Gotham-Black.otf */,
+				93CA6C77204B893600D9618A /* Gotham-BlackIta.otf */,
+				93CA6C75204B893600D9618A /* Gotham-Bold.otf */,
+				93CA6C7D204B893700D9618A /* Gotham-BoldIta.otf */,
+				93CA6C73204B893600D9618A /* Gotham-Book.otf */,
+				93CA6C71204B893600D9618A /* Gotham-BookIta.otf */,
+				93CA6C7A204B893600D9618A /* Gotham-Light.otf */,
+				93CA6C70204B893600D9618A /* Gotham-LightIta.otf */,
+				93CA6C6E204B893600D9618A /* Gotham-Medium.otf */,
+				93CA6C78204B893600D9618A /* Gotham-MediumIta.otf */,
+				93CA6C74204B893600D9618A /* Gotham-Thin.otf */,
+				93CA6C76204B893600D9618A /* Gotham-ThinIta.otf */,
+				93CA6C7E204B893700D9618A /* Gotham-Ultra.otf */,
+				93CA6C79204B893600D9618A /* Gotham-UltraIta.otf */,
+				93CA6C72204B893600D9618A /* Gotham-XLight.otf */,
+				93CA6C7B204B893600D9618A /* Gotham-XLightIta.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		93CA6C90204B89E000D9618A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +409,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CA6C8F204B893700D9618A /* Gotham-Ultra.otf in Resources */,
 				93CA6C36204B2EA800D9618A /* LaunchScreen.storyboard in Resources */,
+				93CA6C8D204B893700D9618A /* Gotham-Black.otf in Resources */,
+				93CA6C80204B893700D9618A /* Baskerville.ttc in Resources */,
 				93CA6C33204B2EA800D9618A /* Assets.xcassets in Resources */,
+				93CA6C81204B893700D9618A /* Gotham-LightIta.otf in Resources */,
+				93CA6C82204B893700D9618A /* Gotham-BookIta.otf in Resources */,
+				93CA6C89204B893700D9618A /* Gotham-MediumIta.otf in Resources */,
+				93CA6C83204B893700D9618A /* Gotham-XLight.otf in Resources */,
+				93CA6C86204B893700D9618A /* Gotham-Bold.otf in Resources */,
+				93CA6C87204B893700D9618A /* Gotham-ThinIta.otf in Resources */,
+				93CA6C85204B893700D9618A /* Gotham-Thin.otf in Resources */,
+				93CA6C8C204B893700D9618A /* Gotham-XLightIta.otf in Resources */,
+				93CA6C84204B893700D9618A /* Gotham-Book.otf in Resources */,
+				93CA6C8E204B893700D9618A /* Gotham-BoldIta.otf in Resources */,
+				93CA6C7F204B893700D9618A /* Gotham-Medium.otf in Resources */,
+				93CA6C8B204B893700D9618A /* Gotham-Light.otf in Resources */,
+				93CA6C88204B893700D9618A /* Gotham-BlackIta.otf in Resources */,
+				93CA6C8A204B893700D9618A /* Gotham-UltraIta.otf in Resources */,
 				93CA6C2E204B2EA800D9618A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,9 +453,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CA6C2B204B2EA800D9618A /* ViewController.m in Sources */,
 				93CA6C28204B2EA800D9618A /* AppDelegate.m in Sources */,
+				93CA6C66204B814A00D9618A /* LogInViewController.m in Sources */,
 				93CA6C39204B2EA800D9618A /* main.m in Sources */,
+				93CA6C6B204B861A00D9618A /* UIView+UIView_Extended.m in Sources */,
 				93CA6C31204B2EA800D9618A /* MOTU.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
